@@ -20,8 +20,7 @@ class WordEntry {
       for(int i=0;i<str2.length();i++){
           if(str2.charAt(i)!=' ') b+=str2.charAt(i);
       }
-      return a.equals(b);
-      
+      return a.equals(b);      
   }
 }
 public class lpucolab2 {

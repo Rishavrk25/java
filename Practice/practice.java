@@ -138,6 +138,31 @@ public class practice{
         // BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         // String message=reader.readLine();
         // System.out.println(message);
+        int arr1[]={101,102,103,104,105};
+        String arr2[]={"Alice","Bob","Charlie","David","Eve"};
+        int arr3[]={95,90,95,85,90};
+        int n=arr3.length;
+        for(int i=0;i<n-1;i++){
+            for(int j=0;j<n-1-i;j++){
+                if(arr3[j]<arr3[j+1]){
+                    int temp1=arr1[j];
+                    arr1[j]=arr1[j+1];
+                    arr1[j+1]=temp1;
+
+                    String temp2=arr2[j];
+                    arr2[j]=arr2[j+1];
+                    arr2[j+1]=temp2;
+
+                    int temp3=arr3[j];
+                    arr3[j]=arr3[j+1];
+                    arr3[j+1]=temp3;
+                }
+            }
+        }
+        for(int i=0;i<n;i++){
+            System.out.println(arr1[i]+" "+arr2[i]+" "+arr3[i]);
+        }
+
 
 
 

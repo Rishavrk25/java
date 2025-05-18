@@ -1,7 +1,6 @@
-package ArrayList;
-import java.util.ArrayList;
 
-public class arrayList {
+import java.util.ArrayList;
+public class arrayList{
     public static void main(String[] args) {
         // Creating an ArrayList
         ArrayList<String> names = new ArrayList<>();
@@ -59,6 +58,15 @@ public class arrayList {
             System.out.println(name);
         }
 
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(3);
+        list.add(5);
+        list.add(6);
+        list.add(1);
+        list.remove(list.indexOf(6));
+        for(int ele : list){
+            System.out.print(ele+" ");
+        }
         
     }
 }
