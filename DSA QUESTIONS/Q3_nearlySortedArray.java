@@ -2,7 +2,7 @@ import java.util.PriorityQueue;
 
 public class Q3_nearlySortedArray {
   public void nearlySorted(int[] arr, int k) {
-        // 1. Using Builin sorting
+        // 1. Using Builtin sorting
         //   TC = O(nlogn)
         //   SC = O(logn) / O(n)
 

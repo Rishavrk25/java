@@ -1,9 +1,9 @@
-package LinkedList;
+
 
 import java.util.LinkedList;
 import java.util.Iterator;
 
-public class basics {
+public class basicsUtil {
     public static void main(String[] args) {
         // 1. Create a LinkedList
         LinkedList<String> animals = new LinkedList<>();

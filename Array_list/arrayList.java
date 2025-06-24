@@ -1,5 +1,5 @@
-
 import java.util.ArrayList;
+import java.util.Collections;
 public class arrayList{
     public static void main(String[] args) {
         // Creating an ArrayList
@@ -10,6 +10,11 @@ public class arrayList{
         names.add("Bob");
         names.add("Charlie");
         names.add(1, "David"); // Adds "David" at index 1
+
+        // Sort the ArrayList in ascending order
+        Collections.sort(names);
+        // Sort the ArrayList in descending order
+        Collections.sort(names, Collections.reverseOrder());
 
         // Accessing elements
         System.out.println("First name: " + names.get(0)); // "Alice"
@@ -66,7 +71,6 @@ public class arrayList{
         list.remove(list.indexOf(6));
         for(int ele : list){
             System.out.print(ele+" ");
-        }
-        
+        }        
     }
 }
