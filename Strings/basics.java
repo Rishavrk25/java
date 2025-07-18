@@ -120,9 +120,14 @@ public class basics {
         // System.out.printf("%d",s.length());
 
         // 21. isUpperCase
-        char ch='R';
-        System.out.println(Character.isUpperCase(ch));
-        System.out.println(Character.toLowerCase(ch));
+        // char ch='R';
+        // System.out.println(Character.isUpperCase(ch));
+        // System.out.println(Character.toLowerCase(ch));
+
+        // 22. String to Int
+        // String str = "123";
+        // int num = Integer.parseInt(str);
+        // System.out.println(num);  // Output: 123
 
 
     } 

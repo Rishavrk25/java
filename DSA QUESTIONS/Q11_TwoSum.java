@@ -20,7 +20,6 @@ public class Q11_TwoSum {
         break;
       } else
         map.put(nums[i], i);
-
     }
 
     return arr;

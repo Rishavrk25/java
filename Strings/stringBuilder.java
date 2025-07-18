@@ -18,8 +18,8 @@ public class stringBuilder {
         // System.out.println(sb);
 
         // ----------------setCharAt()---------------
-        // StringBuilder str=new StringBuilder("abc");
-        // str.setCharAt(0,'A' );
+        StringBuilder str=new StringBuilder("abc");
+        str.setCharAt(0,'A' );
         // System.out.println(str);
 
         // ---------------Basic methods-------------
