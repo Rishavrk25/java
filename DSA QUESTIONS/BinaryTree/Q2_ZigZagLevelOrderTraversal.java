@@ -1,3 +1,4 @@
+package BinaryTree;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -5,7 +6,7 @@ import java.util.Queue;
 
 import javax.swing.tree.TreeNode;
 
-public class Q71_BTreeZigZagLevelOrderTraversal {
+public class Q2_ZigZagLevelOrderTraversal {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> ans=new ArrayList<>();
         if(root==null) return ans;

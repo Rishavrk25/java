@@ -1,5 +1,8 @@
-public class Q37_MajorityEle {
+package Array;
+public class Q4_MajorityEle {
     public int majorityElement(int[] nums) {
+        // find the element that appears more than ⌊n/2⌋ times in an array of size n
+
         // BRUTE FORCE TC = O(nlogn)
         // int n=nums.length;
         // Arrays.sort(nums);

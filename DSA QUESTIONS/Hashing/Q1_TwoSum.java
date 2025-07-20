@@ -1,6 +1,7 @@
+package Hashing;
 import java.util.HashMap;
 
-public class Q11_TwoSum {
+public class Q1_TwoSum {
   public int[] twoSum(int[] nums, int target) {
     // 1. Brute Force
     // Nested Loop -> TC = O(n^2)

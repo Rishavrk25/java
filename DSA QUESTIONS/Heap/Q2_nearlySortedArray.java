@@ -1,6 +1,7 @@
+package Heap;
 import java.util.PriorityQueue;
 
-public class Q3_nearlySortedArray {
+public class Q2_nearlySortedArray {
   public void nearlySorted(int[] arr, int k) {
         // 1. Using Builtin sorting
         //   TC = O(nlogn)

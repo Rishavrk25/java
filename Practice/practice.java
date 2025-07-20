@@ -92,26 +92,32 @@
 //     }
 // }
 
-import java.util.ArrayList;
-import java.util.Stack;
-public class practice {
-    public static void main(String[] args) {
-        int arr[]={100,80,60,70,60,75,85};
-        int n=arr.length;
-        for(int ele : arr){
-            System.out.print(ele+" ");
-        }
-        System.out.println();
-        Stack<Integer> st=new Stack<>();
-        ArrayList<Integer> ans=new ArrayList<>();
-        for(int i=0;i<n;i++){
-            int val=arr[i];
-            while(!st.isEmpty() && arr[st.peek()]<=val) st.pop();
-            if(st.isEmpty()) ans.add(i+1);
-            else ans.add(i-st.peek());
-            st.push(i);
+// import java.util.ArrayList;
+// import java.util.Stack;
+// public class practice {
+//     public static void main(String[] args) {
+//         int arr[]={100,80,60,70,60,75,85};
+//         int n=arr.length;
+//         for(int ele : arr){
+//             System.out.print(ele+" ");
+//         }
+//         System.out.println();
+//         Stack<Integer> st=new Stack<>();
+//         ArrayList<Integer> ans=new ArrayList<>();
+//         for(int i=0;i<n;i++){
+//             int val=arr[i];
+//             while(!st.isEmpty() && arr[st.peek()]<=val) st.pop();
+//             if(st.isEmpty()) ans.add(i+1);
+//             else ans.add(i-st.peek());
+//             st.push(i);
 
-        }
-        for(int ele: ans) System.out.print(ele+" ");
+//         }
+//         for(int ele: ans) System.out.print(ele+" ");
+//     }
+// }
+public class practice {
+
+    public static void main(String[] args) {
+        System.out.println(2^5);
     }
 }

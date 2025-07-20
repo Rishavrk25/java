@@ -1,4 +1,5 @@
-public class Q4_Sort0s1sAnd2s {
+package Array;
+public class Q2_Sort0s1sAnd2s {
 
   // 1. Using Buildin sort
   //   TC = O(nlogn)

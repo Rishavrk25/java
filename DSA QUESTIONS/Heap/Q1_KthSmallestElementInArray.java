@@ -1,7 +1,8 @@
+package Heap;
 import java.util.PriorityQueue;
 import java.util.Collections;
 
-public class Q2_KthSmallestElementInArray {
+public class Q1_KthSmallestElementInArray {
   public static int kthSmallest(int[] arr, int k) {
     // 1. Brute Force
     //   Selection sort (k passes), then arr[k-1]

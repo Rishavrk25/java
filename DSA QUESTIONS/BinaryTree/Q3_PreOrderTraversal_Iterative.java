@@ -1,10 +1,11 @@
+package BinaryTree;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
 import javax.swing.tree.TreeNode;
 
-public class Q72_PreOrderTraversalIterative {
+public class Q3_PreOrderTraversal_Iterative {
     public List<Integer> preorderTraversal(TreeNode root) {
         // DFS USING STACKS
         List<Integer> ans=new ArrayList<>();

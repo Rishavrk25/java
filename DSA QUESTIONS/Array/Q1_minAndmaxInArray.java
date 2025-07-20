@@ -1,3 +1,4 @@
+package Array;
 
 public class Q1_minAndmaxInArray {
   public Pair<Integer, Integer> getMinMax(int[] arr) {
@@ -41,7 +42,6 @@ public class Q1_minAndmaxInArray {
         }
         else if(arr[i]<min){
             min=arr[i];
-        }
     }
     Pair<Integer,Integer> pair= new Pair<>(min,max);
     return pair;

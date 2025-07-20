@@ -1,14 +1,24 @@
-public class Q73_heightOfBinaryTree {
+package BinaryTree;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+import javax.swing.tree.TreeNode;
+
+public class Q4_HeightOfBinaryTree {
     public int maxDepth(TreeNode root) {
         // m-1
         // if(root==null) return 0;
-        // return 1 + Math.max(maxDepth(root.left),maxDepth(root.right));
+        // int l=maxDepth(root.left);
+        // int r=maxDepth(root.right);
+        // return 1 + Math.max(l,r);
 
-        // m-2
+
+        // m-2 -> levelOrderTraversal (BFS)
         if(root==null) return 0;
         Queue<TreeNode> q=new LinkedList<>();
         q.add(root);
-        int c=0;
+        int c=0; 
         while(!q.isEmpty()){
             int size=q.size();
             for(int i=0;i<size;i++){
@@ -18,6 +28,6 @@ public class Q73_heightOfBinaryTree {
             }
             c++;
         }
-        return c;
+        return c-1;
     }
 }

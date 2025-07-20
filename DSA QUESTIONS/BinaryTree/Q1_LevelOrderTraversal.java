@@ -1,3 +1,4 @@
+package BinaryTree;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -5,7 +6,7 @@ import java.util.Queue;
 
 import javax.swing.tree.TreeNode;
 
-public class Q70_BTreeLevelOrderTraversal {
+public class Q1_LevelOrderTraversal {
     public List<List<Integer>> levelOrder(TreeNode root) {
         // BFS USING QUEUE
         // TC = O(n)

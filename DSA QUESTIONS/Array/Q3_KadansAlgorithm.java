@@ -1,4 +1,5 @@
-public class Q12_KadansAlgorithm {
+package Array;
+public class Q3_KadansAlgorithm {
   // Kadan's Algorithm -> max sum of subarray
   // TC = O(n)
   // SC = O(1)
