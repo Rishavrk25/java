@@ -12,7 +12,7 @@ public class Q6_LowestCommonAncestor {
         else if(l==null) return r;
         else return root;
     }
-
+    
 
     // TC -> O(n^2)
     // boolean exists(TreeNode root,TreeNode node){
