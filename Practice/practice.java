@@ -127,7 +127,7 @@ public class practice {
         arr.add(4);
         arr.add(1);
         arr.add(1);
-        arr.remove(4);
+        // arr.remove(4);
         for(int ele:arr){
             System.out.println(ele);
         }
