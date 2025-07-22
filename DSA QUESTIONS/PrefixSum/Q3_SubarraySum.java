@@ -1,8 +1,9 @@
 import java.util.HashMap;
 
-public class Q36_SubarraySum {
+public class Q3_SubarraySum {
     public static void main(String[] args) {
         HashMap<Integer,Integer> map=new HashMap<>();
+        // (sum,freq)
         int sum=0;
         int ans=0;
         for(int i=0;i<arr.length;i++){

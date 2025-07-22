@@ -1,27 +1,25 @@
 package Graph;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Q1_PrintAdjacencyList {
-
-    void dfs(ArrayList<ArrayList<Integer>> adj,ArrayList<Integer> res, ArrayList<Boolean> visited,int u){
-        if(visited.get(u)==true) return;
-        visited.set(u,true);
-        res.add(u);
-        for(int ele : adj.get(u)){
-            if(!visited.get(ele)) dfs(adj,res,visited,ele);
+    public List<List<Integer>> printGraph(int V, int edges[][]) {
+        List<List<Integer>> res=new ArrayList<>();
+        for(int i=0;i<V;i++){
+            res.add(new ArrayList<>());
         }
+        int E = edges.length;
+        for(int i=0;i<E;i++){
+            int u=edges[i][0];
+            int v=edges[i][1];
+            
+            res.get(u).add(v);
+            res.get(v).add(u);
+            
+        }
+        return res;
     }
-    public ArrayList<Integer> dfs(ArrayList<ArrayList<Integer>> adj) {
-        // Code here
-         ArrayList<Integer> res=new ArrayList<>();
-         ArrayList<Boolean> visited= new ArrayList<>();
-         int V = adj.size();
-         for(int i=0;i<V;i++){
-             visited.add(false);
-         }
-         dfs(adj,res,visited,0);
-         return res;
-        
-    }
+    
+    
 }

@@ -12,7 +12,6 @@ public class Q3_DFS {
         }
     }
     public ArrayList<Integer> dfs(ArrayList<ArrayList<Integer>> adj) {
-        // Code here
          ArrayList<Integer> res=new ArrayList<>();
          ArrayList<Boolean> visited= new ArrayList<>();
          int V = adj.size();
