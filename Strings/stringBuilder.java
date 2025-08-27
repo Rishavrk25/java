@@ -11,15 +11,15 @@ public class stringBuilder {
         // System.out.println(s1.capacity());
 
         // ------------------input--------------------
-        Scanner sc=new Scanner(System.in);
-        String s2=sc.nextLine();
-        char ch=sc.next().charAt(0);
+        // Scanner sc=new Scanner(System.in);
+        // String s2=sc.nextLine();
+        // char ch=sc.next().charAt(0);
         // StringBuilder sb=new StringBuilder(s2);
         // System.out.println(sb);
 
         // ----------------setCharAt()---------------
-        StringBuilder str=new StringBuilder("abc");
-        str.setCharAt(0,'A' );
+        // StringBuilder str=new StringBuilder("abc");
+        // str.setCharAt(0,'A' );
         // System.out.println(str);
 
         // ---------------Basic methods-------------
@@ -31,8 +31,8 @@ public class stringBuilder {
         // System.out.println(sb); // Hello World
 
         // // Insert
-        // sb.insert(5, " Beautiful");
-        // System.out.println(sb); // Hello Beautiful World
+        sb.insert(4, 'a');
+        System.out.println(sb); // Hello Beautiful World
 
         // Replace
         // sb.replace(6, 15, "Java");

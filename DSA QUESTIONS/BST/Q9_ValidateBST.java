@@ -39,22 +39,57 @@ public class Q9_ValidateBST {
     // }
 
     // M-3 -> best
-    boolean ans=true;
-    TreeNode prev=null;
-    void inorder(TreeNode root){
-        if(root==null) return;
-        inorder(root.left);
-        if(prev!=null && prev.val>=root.val){
-            ans=false;  
-        }
-        prev=root;
-        inorder(root.right);
-    }
+    // boolean ans=true;
+    // TreeNode prev=null;
+    // void inorder(TreeNode root){
+    //     if(root==null) return;
+    //     inorder(root.left);
+    //     if(prev!=null && prev.val>=root.val){
+    //         ans=false;  
+    //     }
+    //     prev=root;
+    //     inorder(root.right);
+    // }
+    // public boolean isValidBST(TreeNode root) {
+    //     ArrayList<Integer> list=new ArrayList<>();
+    //     TreeNode prev=null;
+    //     inorder(root);
+    //     return ans;
+    // }
+
+
+
+    // MORRIS TRAVERSAL
     public boolean isValidBST(TreeNode root) {
-        ArrayList<Integer> list=new ArrayList<>();
+        TreeNode curr=root;
         TreeNode prev=null;
-        inorder(root);
-        return ans;
-    }
+        while(curr!=null){
+            if(curr.left!=null){
+                TreeNode pred=curr.left;
+                while(pred.right!=null && pred.right!=curr) pred=pred.right;
+                // link
+                if(pred.right==null){
+                    pred.right=curr;
+                    curr=curr.left;
+                }
+                // unlink
+                else{
+                    //visit
+                    if(prev!=null && prev.val >= curr.val) return false;
+                    prev=curr;
+                    curr=curr.right;
+                    pred.right=null;
+                }
+            }
+            else{
+                // visit
+                if(prev!=null && prev.val >= curr.val) return false;
+                prev=curr;
+                curr=curr.right;
+            }
+        }
+        return true;
+     }
+
 
 }

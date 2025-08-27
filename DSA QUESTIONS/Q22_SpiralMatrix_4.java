@@ -1,4 +1,3 @@
-import DSA QUESTIONS.Q10_mergeKsortedList.ListNode;
 
 public class Q22_SpiralMatrix_4 {
     public int[][] spiralMatrix(int r, int c, ListNode head) {
