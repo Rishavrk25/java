@@ -10,7 +10,7 @@ public class Q3_KadansAlgorithm {
         for(int i=0;i<n;i++){
             s+=nums[i];
             ans=Math.max(ans,s);
-            if(s<0){ // if sum = 0 , its better to start fresh
+            if(s<0){ // if sum < 0 , its better to start fresh
                 s=0;
             }
         }
