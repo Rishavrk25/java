@@ -33,6 +33,7 @@ public class Q1_PrintAdjacencyList {
             adjList.get(u).add(v);
             adjList.get(v).add(u);
         }
+        
         int adj[][] = new int[n][];
         for(int i=0;i<n;i++){
             List<Integer> list= adjList.get(i);

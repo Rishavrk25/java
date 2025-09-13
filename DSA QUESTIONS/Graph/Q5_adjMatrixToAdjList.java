@@ -1,4 +1,4 @@
-package Graph;
+import java.util.ArrayList;
 
 public class Q4_adjMatrixToAdjList {
         ArrayList<ArrayList<Integer>> adj=new ArrayList<>();
