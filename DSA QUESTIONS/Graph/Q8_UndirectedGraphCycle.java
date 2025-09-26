@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class Q7_UndirectedGraphCycle {
+public class Q8_UndirectedGraphCycle {
     // BFS
     // class Pair {
     //     int node;

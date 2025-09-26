@@ -5,7 +5,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class Q5_FindIfPathExists {
+public class Q6_FindIfPathExists {
+    //Leetcode 1971
     // BFS
     // TC = O(V + E)
     // void bfs(int s,int d,List<List<Integer>> adj,boolean visited[]){  

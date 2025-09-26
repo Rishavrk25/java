@@ -1,6 +1,5 @@
 import java.util.ArrayList;
-
-public class Q4_adjMatrixToAdjList {
+public class Q5_adjMatrixToAdjList {
         ArrayList<ArrayList<Integer>> adj=new ArrayList<>();
         for(int i=0;i<n;i++){
             ArrayList<Integer> list=new ArrayList<>();

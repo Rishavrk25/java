@@ -1,10 +1,7 @@
-package Graph;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
 
-public class Q3_NoOfProvinces {
+public class Q4_NoOfProvinces {
+    // leetcode 547
     // BFS -> TC = O(n^2)
     // void bfs(int i,int adj[][],boolean visited[]){
     //     int n=adj.length;

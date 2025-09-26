@@ -31,6 +31,7 @@ public class Q11_TopologicalSort {
   
   
   // BFS
+  // Kahn's Algorithm
   static void bfs(ArrayList<ArrayList<Integer>> adj,int V,int indegree[],ArrayList<Integer> ans){
         Queue<Integer> q = new LinkedList<>();
         // push nodes with indegree 0

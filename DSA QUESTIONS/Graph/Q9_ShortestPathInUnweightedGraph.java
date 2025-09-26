@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class Q8_ShortestPathInUnweightedGraph {
+public class Q9_ShortestPathInUnweightedGraph {
     public static LinkedList<Integer> shortestPath(int[][] edges, int n, int m, int s, int t) {
 		// BFS
 		List<List<Integer>> adj=new ArrayList<>();

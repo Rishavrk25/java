@@ -3,8 +3,11 @@ package Graph;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Q6_NoOfIsland {
+public class Q7_NoOfIsland {
+    // leetcode 200
     //BFS
+    // Time Complexity = O(m × n)
+    // BFS Space Complexity = O(m × n) (visited + queue)
     // class Pair{
     //     int x;
     //     int y;
@@ -60,6 +63,8 @@ public class Q6_NoOfIsland {
 
 
     // DFS
+    //Time Complexity = O(m × n)
+    // DFS Space Complexity = O(m × n) (visited + recursion stack)
      void dfs(char grid[][],boolean visited[][],int x,int y){
         int m=grid.length;
         int n=grid[0].length;

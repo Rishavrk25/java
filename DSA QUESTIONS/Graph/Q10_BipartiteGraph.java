@@ -1,6 +1,8 @@
+import java.util.Arrays;
+
 public class Q10_BipartiteGraph {
 
-  // BFS
+// BFS
 //   boolean ans = true;
 //     void bfs(int adj[][],int visited[],int i){
 //         int n=adj.length;
@@ -31,7 +33,6 @@ public class Q10_BipartiteGraph {
 //         }
 //         return ans;
 //     }
-// }
 
 
 // DFS
@@ -58,3 +59,4 @@ boolean dfs(int adj[][],int visited[],int u, int color){
         return true;
 
     }
+}
