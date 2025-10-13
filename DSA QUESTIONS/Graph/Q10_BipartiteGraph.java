@@ -1,7 +1,6 @@
 import java.util.Arrays;
 
 public class Q10_BipartiteGraph {
-
 // BFS
 //   boolean ans = true;
 //     void bfs(int adj[][],int visited[],int i){

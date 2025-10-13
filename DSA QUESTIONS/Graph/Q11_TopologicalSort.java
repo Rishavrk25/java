@@ -3,6 +3,9 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Q11_TopologicalSort {
+  // topological sort for directed acyclic graph (DAG)
+  // linear ordering of vertices such that for every directed edge u->v, u comes before v in the ordering
+
   // DFS
   // static void dfs(ArrayList<ArrayList<Integer>> adj,boolean visited[],int i,ArrayList<Integer> ans){
   //       if(visited[i]) return;

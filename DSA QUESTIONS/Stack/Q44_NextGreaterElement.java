@@ -5,7 +5,7 @@ import java.util.Stack;
 
 public class Q44_NextGreaterElement {
     public static void main(String[] args) {
-         Stack<Integer> st=new Stack<>();
+        Stack<Integer> st=new Stack<>();
         int n=arr.length;
         ArrayList<Integer> ans=new ArrayList<>();
         st.push(arr[n-1]);
