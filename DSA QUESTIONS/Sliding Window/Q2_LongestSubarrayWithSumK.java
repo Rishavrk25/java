@@ -1,4 +1,4 @@
-public class Q52_LongestSubarrayWithSumK {
+public class Q2_LongestSubarrayWithSumK {
     public static int longestSubarrayWithSumK(int []arr, long k) {
         // SLIDING WINDOW -> DYNAMIC LENGTH
         int i=0;

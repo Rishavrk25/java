@@ -1,4 +1,4 @@
-public class Q53_SubarrayProductLessThanK {
+public class Q3_SubarrayProductLessThanK {
     class Solution {
     public int numSubarrayProductLessThanK(int[] arr, int k) {
         int i=0;

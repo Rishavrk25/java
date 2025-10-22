@@ -1,4 +1,4 @@
-public class Q51_maxSumOfSubarrayOfSizeK {
+public class Q1_maxSumOfSubarrayOfSizeK {
      public int maximumSumSubarray(int[] arr, int k) {
         // SLIDING WINDOW
         int n=arr.length;
