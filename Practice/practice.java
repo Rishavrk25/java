@@ -122,15 +122,32 @@ public class practice {
 
     public static void main(String[] args) {
         // System.out.println(2^5);
-        ArrayList<Integer> arr=new ArrayList<>();
-        arr.add(4);
-        arr.add(4);
-        arr.add(1);
-        arr.add(1);
-        // arr.remove(4);
-        for(int ele:arr){
-            System.out.println(ele);
+        // ArrayList<Integer> arr=new ArrayList<>();
+        // arr.add(4);
+        // arr.add(4);
+        // arr.add(1);
+        // arr.add(1);
+        // // arr.remove(4);
+        // for(int ele:arr){
+        //     System.out.println(ele);
+        // }
+
+        int arr[] ={54,11,28,91,47,63};
+        int n=arr.length;
+        int x=0;
+        for(int i=0;i<n;i++){
+            int min=Integer.MAX_VALUE;
+            int idx=0;
+            for(int j=0;j<n;j++){
+                if(arr[j]<min && arr[j]>0){
+                    min=arr[j];
+                    idx = j;
+                }
+            }
+            arr[idx] = x;
+            x--;
         }
+        for(int ele:arr) System.out.print(ele*-1+" ");
 
     }
 }

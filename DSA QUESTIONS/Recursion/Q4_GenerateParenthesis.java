@@ -2,7 +2,7 @@ package Recursion;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Q48_GenerateParenthesis {
+public class Q4_GenerateParenthesis {
     // OPTIMAL
     void helper(int n,String s,List<String> ans,int open,int close){
         if(s.length()==n*2){

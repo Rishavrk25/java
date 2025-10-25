@@ -1,13 +1,14 @@
 package Sorting;
 
 public class QuickSort {
+    // tc: O(n log n) on average and O(n^2) in worst case
+    // sc: O(log n) for recursive stack space
      static void quickSort(int arr[], int low, int high) {
         // code here
         if(low>=high) return;
         int pi=partition(arr,low,high);
         quickSort(arr,low,pi-1);
         quickSort(arr,pi+1,high);
-        
         
     }
     static void swap(int arr[],int i,int j){

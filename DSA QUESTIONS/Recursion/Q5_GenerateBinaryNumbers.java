@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Q59_GenerateBinaryNumbers {
+public class Q5_GenerateBinaryNumbers {
    static ArrayList<String> generate(int n) {
         // Your code here
         ArrayList<String> ans=new ArrayList<>();

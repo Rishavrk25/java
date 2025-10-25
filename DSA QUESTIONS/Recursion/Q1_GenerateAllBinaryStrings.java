@@ -2,7 +2,7 @@ package Recursion;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Q43_GenerateAllBinaryStrings {
+public class Q1_GenerateAllBinaryStrings {
     static void helper(int n,String s, List<String> list){
         if(n==0){
             list.add(s);

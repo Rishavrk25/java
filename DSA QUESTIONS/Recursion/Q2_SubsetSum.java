@@ -1,7 +1,7 @@
 package Recursion;
 import java.util.ArrayList;
 
-public class Q46_SubsetSum {
+public class Q2_SubsetSum {
      void helper(int arr[],int i,int sum,ArrayList<Integer> ans){
         if(i==arr.length){
             ans.add(sum);

@@ -2,7 +2,7 @@ package Recursion;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Q47_Subsets {
+public class Q3_Subsets {
     void helper(int nums[],List<Integer> list,List<List<Integer>> ans,int i){
         if(i>=nums.length){
             ans.add(new ArrayList<>(list));
