@@ -2,6 +2,7 @@ import java.util.HashMap;
 
 public class Q3_SubarraySum {
     public static void main(String[] args) {
+        // Given an array of integers nums and an integer k, return the total number of subarrays whose sum equals to k.
         HashMap<Integer,Integer> map=new HashMap<>();
         // (sum,freq)
         int sum=0;

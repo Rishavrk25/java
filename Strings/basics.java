@@ -87,10 +87,10 @@ public class basics {
         // System.out.println("Is Alpha: " + Character.isLetter(testChar2)); // Output: true
 
         // // 15. Compare Strings
-        // String str1 = "Apple";
-        // String str2 = "Banana";
-        // int comparison = str1.compareTo(str2); // Lexicographical comparison
-        // System.out.println("Comparison: " + comparison); // Output: Negative (str1 < str2)
+        String str1 = "dcab";
+        String str2 = "acdb";
+        int comparison = str1.compareTo(str2); // Lexicographical comparison
+        System.out.println("Comparison: " + comparison); // Output: Negative (str1 < str2)
 
         // // 16. Reverse a String (using StringBuilder)
         // StringBuilder sb = new StringBuilder(str);
